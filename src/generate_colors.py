@@ -14,7 +14,7 @@ import sys
 import requests
 from typing import Dict, Any
 
-URL = "https://raw.githubusercontent.com/Traewelling/line-colors/refs/heads/main/line-colors.csv"
+URL = "https://raw.githubusercontent.com/luna-cant-code/line-colors/refs/heads/swiss_playground/line-colors.csv"
 OUTPUT = "scripts/de-delfi-colors.lua"
 
 HEX_RE = re.compile(r"^[0-9A-Fa-f]{3}([0-9A-Fa-f]{3})?$")
