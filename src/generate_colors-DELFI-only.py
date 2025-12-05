@@ -97,7 +97,7 @@ def parse_colors(csv_text: str) -> Dict[str, Dict[str, Dict[str, Any]]]:
             continue
         
         # Skip stuff that's not in DELFI (long list, I know...)
-        not_allowed = ("Autobus AG Liestal", "Appenzeller Bahnen", "Schweizerische Bundesbahnen", "Automobildienst Appenzeller Bahnen", "BLS AG (bls)", "Baselland Transport", "Basler Verkehrsbetriebe", "Funiculaire Neuchâtel-Université - Neuchâtel-Gare", "PostAuto AG", "Schweizerische Südostbahn (sob)", "Transports Publics Neuchâtelois SA", "Transports Publics Neuchâtelois SA (cmn)", "Transports Publics Neuchâtelois SA (rvt)", "Transports Publics Neuchâtelois SA (tc)", "Transports Publics Neuchâtelois SA (tn)")
+        not_allowed = ("Service d'automobiles TRN (vr)", "Rhätische Bahn", "Autobus AG Liestal", "Appenzeller Bahnen", "Schweizerische Bundesbahnen", "Automobildienst Appenzeller Bahnen", "BLS AG (bls)", "Baselland Transport", "Basler Verkehrsbetriebe", "Funiculaire Neuchâtel-Université - Neuchâtel-Gare", "PostAuto AG", "Schweizerische Südostbahn (sob)", "Transports Publics Neuchâtelois SA", "Transports Publics Neuchâtelois SA (cmn)", "Transports Publics Neuchâtelois SA (rvt)", "Transports Publics Neuchâtelois SA (tc)", "Transports Publics Neuchâtelois SA (tn)")
         if line_name == "" or agency in not_allowed:
             continue
 
